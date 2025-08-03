@@ -45,7 +45,7 @@ session_start();
                     <?php
                     if(isset($_SESSION['username']) && $_SESSION['username']) {
                         if ($row['Quyen'] == 1) {
-                            echo'<li id="adm"><a href="/AdminPanel.php">Admin Panel</a></li>';
+                            echo'<li id="adm"><a href="./adminpanel.php">Admin Panel</a></li>';
                         }    
                         echo'
                         <li id="login"><a href="/taikhoan/index.php?&id='.$row['MaTaiKhoan'].'">Trang tài khoản</a></li>

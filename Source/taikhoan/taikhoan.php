@@ -51,7 +51,7 @@ echo '<div class="info"><p  style="margin: 10px 20px 10px 20px;"><b>Thông tin c
     <p style="margin: 10px 20px 10px 20px;">Điện thoại: '.$user['DienThoai'].'</p>
     <p style="margin: 10px 20px 10px 20px;">Email: '.$user['Email'].'</p>
     <p style="margin: 10px 20px 10px 20px;">Ngày sinh: '.$user['NgaySinh'].'</p>
-    <p style="margin: 10px 20px 10px 20px;"><a href="../taikhoan/index.php?mod=capnhat&id='.$user['MaTaiKhoan'].'" class="submit3">Cập nhật thông tin</a></p>
+    <p style="margin: 10px 20px 10px 20px;"><a href="taikhoan/index.php?mod=capnhat&id='.$user['MaTaiKhoan'].'" class="submit3">Cập nhật thông tin</a></p>
     </div></div>';
 
 } 

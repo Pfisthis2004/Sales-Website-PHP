@@ -15,7 +15,7 @@ $ok=1;
  <div id="vien">
     <div class="center">
         <div id="ban">
-            <a id="ba" href="/index.php">Trang chủ</a> > 
+            <a id="ba" href="../index.php">Trang chủ</a> > 
             <font color="#008744">Giỏ hàng</font>
         </div>
     </div>
@@ -26,7 +26,7 @@ $ok=1;
 <?php
  if ($ok != 2)
   {
-  echo '<div class="list">Không có sản phẩm nào. <a href="/index.php">Quay lại cửa hàng</a> để tiếp tục mua sắm.</div></div>';
+  echo '<div class="list">Không có sản phẩm nào. <a href="../index.php">Quay lại cửa hàng</a> để tiếp tục mua sắm.</div></div>';
 
  } else {
 
@@ -87,7 +87,7 @@ $ok=1;
   echo '<div class="canhphai">';
   echo '<form action="../giohang/index.php?mod=thanhtoan" method="POST">';
 
-  echo'<a class="submit" href="/index.php">Tiếp tục mua sắm</a>';
+  echo'<a class="submit" href="../index.php">Tiếp tục mua sắm</a>';
 
   echo'<input type="submit" name="ThanhToan" value="Thực hiện thanh toán"></div></form>';
 

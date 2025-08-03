@@ -19,7 +19,7 @@ switch ($mod) {
         include "../SanPham/timkiem.php";
         break;        
     default:
-        include "../error.php";
+        include "../SanPham/error.php";
         break;
 }
 

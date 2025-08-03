@@ -18,7 +18,7 @@
         $price = $row['GiaSanPham'];
         $hinh = $row['HinhURL'];
         echo'<div class="list2"><a href="/SanPham/index.php?mod=sanpham&id='.$id.'">
-        <img src="/images/'.$hinh.'" width="215px" height="200px"></a>';
+        <img src="./images/'.$hinh.'" width="215px" height="200px"></a>';
         echo '<a id="tensp" href="/SanPham/index.php?mod=sanpham&id='.$id.'"><p>'.$name.'</p></a>';
         echo'<span>';
         echo number_format($price, 0).' đ<br>';
@@ -48,7 +48,7 @@
         $price = $row['GiaSanPham'];
         $hinh = $row['HinhURL'];
         echo'<div class="list2"><a href="/SanPham/index.php?mod=sanpham&id='.$id.'">
-        <img src="/images/'.$hinh.'" width="215px" height="200px"></a>';
+        <img src="./images/'.$hinh.'" width="215px" height="200px"></a>';
         echo '<a id="tensp" href="/SanPham/index.php?mod=sanpham&id='.$id.'"><p>'.$name.'</p></a>';
         echo'<span>';
         echo number_format($price, 0).' đ<br>';
